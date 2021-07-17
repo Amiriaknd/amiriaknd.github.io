@@ -105,4 +105,4 @@ deploy:
   type: 'git'
   repo: 'git@github.com:Amiriaknd/amiriaknd.github.io.git'
   branch: master
-  message: feat: Hexo Blog Update {{ now('YYYY-MM-DD HH:mm:ss') }})
+  message: Hexo Blog Update {{ now('YYYY-MM-DD HH:mm:ss') }})
