@@ -7,7 +7,7 @@ on:
 
 jobs:
   pages:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       # - uses: actions/checkout@v2
       # - name: Use Node.js 12.x
@@ -28,6 +28,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./src/public
           publish_branch: master  # deploying branch
