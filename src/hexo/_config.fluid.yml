@@ -104,5 +104,5 @@ theme: fluid
 deploy:
   type: 'git'
   repo: 'git@github.com:Amiriaknd/amiriaknd.github.io.git'
-  branch: gh-pages
+  branch: master
   message: feat: Hexo Blog Update {{ now('YYYY-MM-DD HH:mm:ss') }})
